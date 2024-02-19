@@ -11,5 +11,8 @@ public class Runner {
 
         Translator translator = new Translator();
         translator.translate();
+
+        ParityOfNumbers parityOfNumbers = new ParityOfNumbers();
+        parityOfNumbers.parity();
     }
 }
