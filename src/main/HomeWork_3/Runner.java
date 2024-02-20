@@ -11,7 +11,10 @@ public class Runner {
         /*FindNum findN = new FindNum();
         findN.mass();*/
 
-        AverageArr average = new AverageArr();
-        average.mass();
+        /*AverageArr average = new AverageArr();
+        average.mass();*/
+
+        ParityNums parity = new ParityNums();
+        parity.mass();
     }
 }
