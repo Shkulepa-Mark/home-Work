@@ -6,15 +6,13 @@ public class FindNum {
     Scanner scanner = new Scanner(System.in);
 
     void fillByRandom(int []arr,int size) {
-        for(int i = 0; i < size; i++)
-        {
+        for(int i = 0; i < size; i++) {
             arr[i] = (int)(Math.random() * 100) + 5;
         }
     }
 
     void printArray(int []arr,int size) {
-        for(int i = 0; i < size; i++)
-        {
+        for(int i = 0; i < size; i++) {
             System.out.print(arr[i] + " ");
         }
         System.out.println("\n");

@@ -8,7 +8,10 @@ public class Runner {
         /*DelNumMass delNum = new DelNumMass();
         delNum.mass();*/
 
-        FindNum findN = new FindNum();
-        findN.mass();
+        /*FindNum findN = new FindNum();
+        findN.mass();*/
+
+        AverageArr average = new AverageArr();
+        average.mass();
     }
 }
