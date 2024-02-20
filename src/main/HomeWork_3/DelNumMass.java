@@ -87,7 +87,5 @@ public class DelNumMass {
             System.out.println("Updated array without num: ");
             printArray(array, newSize);
         }
-
-
     }
 }

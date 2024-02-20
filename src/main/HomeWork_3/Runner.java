@@ -5,7 +5,10 @@ public class Runner {
         /*NumInMass massive = new NumInMass();
         massive.mass();*/
 
-        DelNumMass delNum = new DelNumMass();
-        delNum.mass();
+        /*DelNumMass delNum = new DelNumMass();
+        delNum.mass();*/
+
+        FindNum findN = new FindNum();
+        findN.mass();
     }
 }
