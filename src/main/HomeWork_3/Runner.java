@@ -17,7 +17,10 @@ public class Runner {
         /*ParityNums parity = new ParityNums();
         parity.mass();*/
 
-        DelOddNum oddNum = new DelOddNum();
-        oddNum.mass();
+        /*DelOddNum oddNum = new DelOddNum();
+        oddNum.mass();*/
+
+        SortNames name = new SortNames();
+        name.mainString();
     }
 }
