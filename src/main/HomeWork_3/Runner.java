@@ -34,7 +34,10 @@ public class Runner {
        /* SumOfMatrix sumMatrix = new SumOfMatrix();
         sumMatrix.mainMatrix();*/
 
-        DiagonalMatrix diagonal = new DiagonalMatrix();
-        diagonal.mainMatrix();
+        /*DiagonalMatrix diagonal = new DiagonalMatrix();
+        diagonal.mainMatrix();*/
+
+        SortElements sort = new SortElements();
+        sort.mainMatrix();
     }
 }
