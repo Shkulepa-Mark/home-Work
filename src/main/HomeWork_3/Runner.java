@@ -2,42 +2,78 @@ package HomeWork_3;
 
 import com.sun.management.DiagnosticCommandMBean;
 
+import java.util.Scanner;
+
 public class Runner {
     public static void main(String[] args) {
-        /*NumInMass massive = new NumInMass();
-        massive.mass();*/
+        Scanner scanner = new Scanner(System.in);
 
-        /*DelNumMass delNum = new DelNumMass();
-        delNum.mass();*/
+        int select = scanner.nextInt();
 
-        /*FindNum findN = new FindNum();
-        findN.mass();*/
-
-        /*AverageArr average = new AverageArr();
-        average.mass();*/
-
-        /*ParityNums parity = new ParityNums();
-        parity.mass();*/
-
-        /*DelOddNum oddNum = new DelOddNum();
-        oddNum.mass();*/
-
-        /*SortNames name = new SortNames();
-        name.mainString();*/
-
-        /*BubbleSort sort = new BubbleSort();
-        sort.mainSort();*/
-
-        /*MultiplyMatrix multiply = new MultiplyMatrix();
-        multiply.mainMatrix();*/
-
-       /* SumOfMatrix sumMatrix = new SumOfMatrix();
-        sumMatrix.mainMatrix();*/
-
-        /*DiagonalMatrix diagonal = new DiagonalMatrix();
-        diagonal.mainMatrix();*/
-
-        SortElements sort = new SortElements();
-        sort.mainMatrix();
+        switch (select){
+            case 1:{
+                NumInMass massive = new NumInMass();
+                massive.mass();
+                break;
+            }
+            case 2:{
+                DelNumMass delNum = new DelNumMass();
+                delNum.mass();
+                break;
+            }
+            case 3:{
+                FindNum findN = new FindNum();
+                findN.mass();
+            }
+            case 4:{
+                AverageArr average = new AverageArr();
+                average.mass();
+                break;
+            }
+            case 5:{
+                ParityNums parity = new ParityNums();
+                parity.mass();
+                break;
+            }
+            case 6:{
+                DelOddNum oddNum = new DelOddNum();
+                oddNum.mass();
+                break;
+            }
+            case 7:{
+                SortNames name = new SortNames();
+                name.mainString();
+                break;
+            }
+            case 8:{
+                BubbleSort sort = new BubbleSort();
+                sort.mainSort();
+                break;
+            }
+            case 9:{
+                MultiplyMatrix multiply = new MultiplyMatrix();
+                multiply.mainMatrix();
+                break;
+            }
+            case 10:{
+                SumOfMatrix sumMatrix = new SumOfMatrix();
+                sumMatrix.mainMatrix();
+                break;
+            }
+            case 11:{
+                DiagonalMatrix diagonal = new DiagonalMatrix();
+                diagonal.mainMatrix();
+                break;
+            }
+            case 12:{
+                SortElements sort = new SortElements();
+                sort.mainMatrix();
+                break;
+            }
+            default:{
+                System.out.println("Wrong");
+                break;
+            }
+        }
     }
 }
