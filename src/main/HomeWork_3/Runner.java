@@ -26,7 +26,10 @@ public class Runner {
         /*BubbleSort sort = new BubbleSort();
         sort.mainSort();*/
 
-        MultiplyMatrix multiply = new MultiplyMatrix();
-        multiply.mainMatrix();
+        /*MultiplyMatrix multiply = new MultiplyMatrix();
+        multiply.mainMatrix();*/
+
+        SumOfMatrix sumMatrix = new SumOfMatrix();
+        sumMatrix.mainMatrix();
     }
 }
