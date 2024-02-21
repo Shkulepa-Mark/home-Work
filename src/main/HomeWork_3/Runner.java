@@ -1,5 +1,7 @@
 package HomeWork_3;
 
+import com.sun.management.DiagnosticCommandMBean;
+
 public class Runner {
     public static void main(String[] args) {
         /*NumInMass massive = new NumInMass();
@@ -29,7 +31,10 @@ public class Runner {
         /*MultiplyMatrix multiply = new MultiplyMatrix();
         multiply.mainMatrix();*/
 
-        SumOfMatrix sumMatrix = new SumOfMatrix();
-        sumMatrix.mainMatrix();
+       /* SumOfMatrix sumMatrix = new SumOfMatrix();
+        sumMatrix.mainMatrix();*/
+
+        DiagonalMatrix diagonal = new DiagonalMatrix();
+        diagonal.mainMatrix();
     }
 }

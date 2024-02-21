@@ -2,7 +2,7 @@ package HomeWork_3;
 
 import java.util.Scanner;
 
-public class SumOfMatrix {
+public class DiagonalMatrix {
     Scanner scanner = new Scanner(System.in);
 
     void fillByHand(int [][]arr,int size){
@@ -69,29 +69,36 @@ public class SumOfMatrix {
         }
     }
 
-    int sumMatrix(int [][]arr,int size){
-        int sum = 0;
-
+    void mainDiagonal(int [][]arr,int size){
         for(int i = 0; i < size; i++) {
             for (int j = 0; j < size; j++) {
-                sum += arr[i][j];
+                if(i == j){
+                    System.out.print(arr[i][j] + " ");
+                }
             }
         }
-
-        return sum;
     }
 
-    void mainMatrix() {
+    void sideDiagonal(int [][]arr,int size){
+        for(int i = 0; i < size; i++) {
+            System.out.print(arr[i][size - i - 1] + " ");
+        }
+    }
+
+    void mainMatrix(){
         System.out.println("Enter size of matrix: ");
         int size = scanner.nextInt();
 
-        int[][] matrix = new int[size][size];
+        int [][] matrix = new int[size][size];
 
-        fillMatrix(matrix, size);
-        printMatrix(matrix, size);
+        fillMatrix(matrix,size);
+        printMatrix(matrix,size);
 
-        int sumOfMatrix = sumMatrix(matrix, size);
+        System.out.println("Elements of main diagonal: ");
+        mainDiagonal(matrix,size);
+        System.out.println();
 
-        System.out.println("Sum of elements: " + sumOfMatrix);
+        System.out.println("Elements of side diagonal: ");
+        sideDiagonal(matrix,size);
     }
 }
