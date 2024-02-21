@@ -14,7 +14,10 @@ public class Runner {
         /*AverageArr average = new AverageArr();
         average.mass();*/
 
-        ParityNums parity = new ParityNums();
-        parity.mass();
+        /*ParityNums parity = new ParityNums();
+        parity.mass();*/
+
+        DelOddNum oddNum = new DelOddNum();
+        oddNum.mass();
     }
 }
