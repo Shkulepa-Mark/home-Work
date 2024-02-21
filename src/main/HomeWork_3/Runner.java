@@ -23,7 +23,10 @@ public class Runner {
         /*SortNames name = new SortNames();
         name.mainString();*/
 
-        BubbleSort sort = new BubbleSort();
-        sort.mainSort();
+        /*BubbleSort sort = new BubbleSort();
+        sort.mainSort();*/
+
+        MultiplyMatrix multiply = new MultiplyMatrix();
+        multiply.mainMatrix();
     }
 }
