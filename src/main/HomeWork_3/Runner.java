@@ -20,7 +20,10 @@ public class Runner {
         /*DelOddNum oddNum = new DelOddNum();
         oddNum.mass();*/
 
-        SortNames name = new SortNames();
-        name.mainString();
+        /*SortNames name = new SortNames();
+        name.mainString();*/
+
+        BubbleSort sort = new BubbleSort();
+        sort.mainSort();
     }
 }
