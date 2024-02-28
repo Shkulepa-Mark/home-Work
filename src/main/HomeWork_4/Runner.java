@@ -8,7 +8,10 @@ public class Runner {
         /*SecondTask welcome = new SecondTask();
         welcome.welcomeTms();*/
 
-        ThirdTask replaceBefAft = new ThirdTask();
-        replaceBefAft.replaceSymbol();
+        /*ThirdTask replaceBefAft = new ThirdTask();
+        replaceBefAft.replaceSymbol();*/
+
+        /*FourthTask day = new FourthTask();
+        day.badDay();*/
     }
 }
