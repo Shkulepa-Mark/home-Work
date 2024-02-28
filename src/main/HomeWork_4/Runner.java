@@ -5,7 +5,10 @@ public class Runner {
         /*FirstTask replaceText = new FirstTask();
         replaceText.text();*/
 
-        SecondTask welcome = new SecondTask();
-        welcome.WelcomeTms();
+        /*SecondTask welcome = new SecondTask();
+        welcome.welcomeTms();*/
+
+        ThirdTask replaceBefAft = new ThirdTask();
+        replaceBefAft.replaceSymbol();
     }
 }
