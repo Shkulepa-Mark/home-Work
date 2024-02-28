@@ -1,7 +1,7 @@
 package HomeWork_4;
 
 public class SecondTask {
-    void WelcomeTms(){
+    void welcomeTms(){
         String w1 = "Welcome";
         String w2 = "to";
         String w3 = "the";
