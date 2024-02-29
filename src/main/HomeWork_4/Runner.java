@@ -13,5 +13,8 @@ public class Runner {
 
         /*FourthTask day = new FourthTask();
         day.badDay();*/
+
+        FifthTask pass = new FifthTask();
+        pass.mainStr();
     }
 }
