@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class FirstTask {
     Scanner scanner = new Scanner(System.in);
 
-    void text(){
+    void text() {
         System.out.println("Enter original string: ");
         String text = scanner.nextLine();
 

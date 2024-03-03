@@ -1,7 +1,7 @@
 package HomeWork_4;
 
 public class ThirdTask {
-    void replaceSymbol(){
+    void replaceSymbol() {
         String text = "teamwithsomeofexcersicesabcwanttomakeitbetter";
 
         int firstIndex = text.indexOf("abc");

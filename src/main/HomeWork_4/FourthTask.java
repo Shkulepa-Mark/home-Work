@@ -1,7 +1,7 @@
 package HomeWork_4;
 
 public class FourthTask {
-    void badDay(){
+    void badDay() {
         StringBuilder bDay = new StringBuilder("Плохой день");
 
         int lastIndexBad = bDay.lastIndexOf("Плохой");

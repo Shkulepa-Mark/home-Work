@@ -30,7 +30,7 @@ public class FifthTask {
         return true;
     }
 
-    void printLettersInLowerCase(String arr){
+    void printLettersInLowerCase(String arr) {
         String firstBlock = arr.substring(5,8);
         String secondBlock = arr.substring(14,17);
         String thirdBlock = arr.substring(19,20);
@@ -41,7 +41,7 @@ public class FifthTask {
         System.out.println(document);
     }
 
-    void containsAbc(String arr){
+    void containsAbc(String arr) {
         int index1 = arr.toLowerCase().indexOf("abc");
 
         if(index1 != -1){
@@ -51,31 +51,30 @@ public class FifthTask {
         }
     }
 
-    void containsFive(String arr){
+    void containsFive(String arr) {
         String five = arr.substring(0,3);
 
-        if(five.equals("555")){
+        if (five.equals("555")) {
             System.out.println("The document starts with 555");
-        }else{
+        } else {
             System.out.println("Document doesn't start with 555");
         }
     }
 
-    void endOfDoc(String arr){
+    void endOfDoc(String arr) {
         String firstNum = arr.substring(18,19);
         String firstLetter = arr.substring(19,20);
         String secondNum = arr.substring(20,21);
         String secondLetter = arr.substring(21,22);
 
-        if(firstNum.equals("1") && firstLetter.equals("a") && secondNum.equals("2") && secondLetter.equals("b")){
+        if (firstNum.equals("1") && firstLetter.equals("a") && secondNum.equals("2") && secondLetter.equals("b")) {
             System.out.println("Last block of document is 1a2b");
-        }
-        else{
+        } else {
             System.out.println("Last block of document isn't 1a2b");
         }
     }
 
-    void printLettersInUpperCase(String arr){
+    void printLettersInUpperCase(String arr) {
         StringBuilder firstBlock = new StringBuilder(arr.substring(5,8).toUpperCase());
         StringBuilder secondBlock = new StringBuilder(arr.substring(14,17).toUpperCase());
         StringBuilder thirdBlock = new StringBuilder(arr.substring(19,20).toUpperCase());

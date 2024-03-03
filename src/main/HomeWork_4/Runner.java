@@ -10,7 +10,7 @@ public class Runner {
 
         int select = scanner.nextInt();
 
-        switch (select){
+        switch (select) {
             case 1: {
                 FirstTask replaceText = new FirstTask();
                 replaceText.text();
