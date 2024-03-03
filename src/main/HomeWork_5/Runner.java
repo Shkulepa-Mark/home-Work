@@ -2,7 +2,7 @@ package HomeWork_5;
 
 public class Runner {
     public static void main(String[] args) {
-        Phone iphone = new Phone("123-456-789", "Iphone 15pro", 687.12);
+        /*Phone iphone = new Phone("123-456-789", "Iphone 15pro", 687.12);
         Phone xiomi = new Phone("752-631-812", "Redmi 13", 996.12);
         Phone samsung = new Phone("821-723-125", "S24", 686.12);
 
@@ -18,7 +18,30 @@ public class Runner {
 
         System.out.println(samsung);
         samsung.receiveCall("Max", "233-336-812");
-        samsung.sendMessage("323-453-126");
+        samsung.sendMessage("323-453-126");*/
+
+        CreditCard card1 = new CreditCard();
+        CreditCard card2 = new CreditCard();
+        CreditCard card3 = new CreditCard();
+
+        card1.setAccountNumber("1234-5678-9012-3456");
+        card1.setAmountOnAccount(1252.52);
+        card1.currentAccount();
+        card1.refillAccount(200.47);
+
+        card2.setAccountNumber("1544-1528-9312-9967");
+        card2.setAmountOnAccount(1.25);
+        card2.currentAccount();
+        card2.refillAccount(500.23);
+
+        card3.setAccountNumber("2423-1241-9232-5326");
+        card3.setAmountOnAccount(1320.2);
+        card3.currentAccount();
+        card3.withdrawFromAccount(214.22);
+
+        card1.currentAccount();
+        card2.currentAccount();
+        card3.currentAccount();
     }
 }
 
