@@ -30,12 +30,12 @@ public class Phone {
     }
 
     public void receiveCall(String name) {
-        System.out.println("Звонит " + name);
+        System.out.println(name + " is calling");
     }
 
     public void receiveCall(String name, String number) {
-        System.out.println("Звонит " + name);
-        System.out.println("Номер " + number);
+        System.out.println(name + " is calling");
+        System.out.println("Number: " + number);
     }
 
     public Phone(String number, String model, double weight) {
