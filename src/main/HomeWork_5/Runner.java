@@ -43,7 +43,7 @@ public class Runner {
         card2.currentAccount();
         card3.currentAccount();*/
 
-        ATM atm = new ATM(30, 15, 20);
+   /*     ATM atm = new ATM(30, 15, 20);
 
         System.out.println("ATM status:");
         System.out.println("Number of 100 bills: " + atm.getCoins100());
@@ -65,7 +65,19 @@ public class Runner {
             System.out.println("Withdrawal successful!");
         } else {
             System.out.println("Withdrawal failed.");
-        }
+        }*/
+
+        TreatmentPlan plan1 = new TreatmentPlan(1);
+        TreatmentPlan plan2 = new TreatmentPlan(2);
+        TreatmentPlan plan3 = new TreatmentPlan(3);
+
+        Patient patient1 = new Patient("Vlad", plan1);
+        Patient patient2 = new Patient("Ivan", plan3);
+        Patient patient3 = new Patient("Alex", plan2);
+
+        Clinic.assignDoctor(patient1);
+        Clinic.assignDoctor(patient2);
+        Clinic.assignDoctor(patient3);
     }
 }
 
