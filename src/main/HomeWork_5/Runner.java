@@ -2,7 +2,7 @@ package HomeWork_5;
 
 public class Runner {
     public static void main(String[] args) {
-        Phone iphone = new Phone("123-456-789", "Iphone 15pro", 687.12);
+       /* Phone iphone = new Phone("123-456-789", "Iphone 15pro", 687.12);
         Phone xiomi = new Phone("752-631-812", "Redmi 13", 996.12);
         Phone samsung = new Phone("821-723-125", "S24", 686.12);
 
@@ -18,7 +18,7 @@ public class Runner {
 
         System.out.println(samsung);
         samsung.receiveCall("Max", "233-336-812");
-        samsung.sendMessage("323-453-126");
+        samsung.sendMessage("323-453-126");*/
 
         /*CreditCard card1 = new CreditCard();
         CreditCard card2 = new CreditCard();
@@ -42,6 +42,30 @@ public class Runner {
         card1.currentAccount();
         card2.currentAccount();
         card3.currentAccount();*/
+
+        ATM atm = new ATM(30, 15, 20);
+
+        System.out.println("ATM status:");
+        System.out.println("Number of 100 bills: " + atm.getCoins100());
+        System.out.println("Number of 50 bills: " + atm.getCoins50());
+        System.out.println("Number of 20 bills: " + atm.getCoins20());
+        System.out.println();
+
+        atm.addMoney(20, 25, 10);
+
+        boolean withdrawalResult = atm.withdrawMoney(820);
+
+        System.out.println("Updated ATM status:");
+        System.out.println("Number of 100 bills: " + atm.getCoins100());
+        System.out.println("Number of 50 bills: " + atm.getCoins50());
+        System.out.println("Number of 20 bills: " + atm.getCoins20());
+        System.out.println();
+
+        if (withdrawalResult) {
+            System.out.println("Withdrawal successful!");
+        } else {
+            System.out.println("Withdrawal failed.");
+        }
     }
 }
 
